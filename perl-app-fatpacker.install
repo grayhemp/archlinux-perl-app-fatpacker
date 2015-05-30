@@ -1,0 +1,29 @@
+# This is a default template for a post-install scriptlet.
+# Uncomment only required functions and remove any functions
+# you don't need (and this header).
+
+pre_install() {
+  echo Installing 
+}
+
+post_install() {
+  echo Finished installing 
+}
+
+pre_upgrade() {
+  echo Upgrading  to 
+}
+
+post_upgrade() {
+  echo Finished upgrading  to 
+}
+
+pre_remove() {
+  echo Removing 
+}
+
+post_remove() {
+  echo Finished removing 
+}
+
+# vim:set ts=2 sw=2 et:

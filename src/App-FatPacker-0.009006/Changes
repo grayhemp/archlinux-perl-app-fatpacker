@@ -1,0 +1,21 @@
+0.9.6 2011-01-18
+  - Use File::Path's "legacy" mkpath and rmtree functions. No longer needs
+    File::Path >= 2.07.
+
+0.9.5 2011-01-12
+  - Avoid using done_testing so this works on older systems
+
+0.9.4 2011-01-12
+  - Die if open fails in @INC handler, reduces confusing errors (DGL)
+  - RT #63466: Add ending newline if input lacks one (GUGOD)
+  - RT #60622: Fix conditional loading, only fatpack loaded modules (DGL)
+
+0.03 2010-07-22
+  - fixed dependency for File::Path(remove_tree/make_path was first appeared at 2.07)
+
+0.02 2010-07-07
+  - fixed typo and doc bug on command usage.(miyagawa)
+  - added `help' command for slightly better user experience(miyagawa)
+
+2010-03-25
+  - Initial release
